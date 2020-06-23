@@ -1,6 +1,6 @@
 	/*
 	 * File:   main.c
-	 * Author: Guy Maimon
+	 * Author: Guy Maimon.
 	 *
 	 *
 	 * 2020-June-17: Guy Maimon: Version V1.01
