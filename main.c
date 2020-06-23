@@ -29,6 +29,7 @@
 	#define _XTAL_FREQ	32000000ul
 
 	void InitializeHardware(void);
+    unsigned char ReadInput(char source[3]);
     unsigned char ReadPot(void);
     unsigned char ReadSw1(void);
     unsigned char ReadSw2(void);
@@ -166,7 +167,6 @@
         return(ReadAdc());
     }
     unsigned char ReadAdc(void) {
-		
 		
 		unsigned int RawAdcValue;
 		unsigned int AdcValue;
